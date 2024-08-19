@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url(/focus.jpg);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+h1 {
+  color: #fff;
+}
+
+#counter {
+  font-size: 48px;
+  font-weight: bold;
+  color: #f44336;
+}
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+.btn {
+  font-size: 24px;
+  color: #fff;
+  height: 100px;
+  width: 120px;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.btn1 {
+  background-color: #f44336;
+}
+.btn2 {
+  background-color: #47b247;
+}
